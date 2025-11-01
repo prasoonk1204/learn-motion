@@ -21,7 +21,12 @@ const features: Feature[] = [
     {
         content: (
             <div>
-                <Image src="/image.png" height={250} width={500} alt="image" />
+                <Image
+                    src={process.env.NEXT_PUBLIC_IMAGE_URL || "/image.png"}
+                    height={250}
+                    width={500}
+                    alt="image"
+                />
             </div>
         ),
         title: "abcdfpajf",
@@ -30,7 +35,12 @@ const features: Feature[] = [
     {
         content: (
             <div>
-                <Image src="/image.png" height={250} width={500} alt="image" />
+                <Image
+                    src={process.env.NEXT_PUBLIC_IMAGE_URL || "/image.png"}
+                    height={250}
+                    width={500}
+                    alt="image"
+                />
             </div>
         ),
         title: "abcdfpvsajf",
@@ -39,7 +49,12 @@ const features: Feature[] = [
     {
         content: (
             <div>
-                <Image src="/image.png" height={250} width={500} alt="image" />
+                <Image
+                    src={process.env.NEXT_PUBLIC_IMAGE_URL || "/image.png"}
+                    height={250}
+                    width={500}
+                    alt="image"
+                />
             </div>
         ),
         title: "abcdfpvdssajf",
