@@ -2,7 +2,8 @@
 // import { V2content } from "@/components/v2/content";
 // import { V3content } from "@/components/v3/content";
 // import { V4content } from "@/components/v4/content";
-import { V5content } from "@/components/v5/content";
+// import { V5content } from "@/components/v5/content";
+import { Navbar } from "@/components/v5/Navbar";
 
 export default function Home() {
     return (
@@ -11,7 +12,8 @@ export default function Home() {
             {/* <V2content /> */}
             {/* <V3content /> */}
             {/* <V4content /> */}
-            <V5content />
+            {/* <V5content /> */}
+            <Navbar />
         </div>
     );
 }
