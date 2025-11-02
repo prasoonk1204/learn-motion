@@ -4,8 +4,8 @@
 // import { V4content } from "@/components/v4/content";
 // import { V5content } from "@/components/v5/content";
 // import { Navbar } from "@/components/v5/Navbar";
-
-import { AnimatedText } from "@/components/v6/animatedText";
+// import { AnimatedText } from "@/components/v6/animatedText";
+import { AnimationSequences } from "@/components/v6/animationSequences";
 
 export default function Home() {
     return (
@@ -16,7 +16,8 @@ export default function Home() {
             {/* <V4content /> */}
             {/* <V5content /> */}
             {/* <Navbar /> */}
-            <AnimatedText />
+            {/* <AnimatedText /> */}
+            <AnimationSequences />
         </div>
     );
 }
